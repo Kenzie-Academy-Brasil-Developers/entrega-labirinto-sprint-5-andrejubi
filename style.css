@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: #094909;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;
+    margin: 0;
+    background-color: #9fdca4;
+}
+
+div {
+    background-color: #044904;
+}
+
+.run, .start, .end, div {
+    width: 40px;
+    height: 40px;
+}
+
+.start {
+    background-color: #094909;
+}
+
+.end {
+    background-color: #447252;
+}
+
+#player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+p {
+    display: none;
+    margin: auto;
+    background-color: rgb(17, 226, 17);
+    border-radius: 100px;
+    padding: 50px;
+    color: rgb(7, 1, 1);
+    font-weight: 5000;
+    font-size: 50px
+}
